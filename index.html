@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/main/styles-main.css">
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@18.2.1/build/css/intlTelInput.css">
+  <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@18.2.1/build/js/intlTelInput.min.js"></script>
+  <script src="./scripts/index.js" defer></script>
+  <title>China</title>
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <ul class="header__ul">
+        <li class="header__li"><img class="header__img" src="./assets/china-logo.png" alt="china"></li>
+        <li class="header__li">Доставка из Китая</li>
+        <li class="header__li">Написать руководителю</li>
+        <li class="header__li">
+          <p class="header__p">8 888 888-88-88</p>
+          <span id="popupCall__open" class="header__span">заказать звонок</span>
+        </li>
+      </ul>
+    </header>
+    <nav class="nav">
+      <ul class="nav__ul">
+        <li class="nav__li">
+          <a href="#">Главная</a>
+        </li>
+        <li class="nav__li">
+          <div class="nav__li-wrapper">
+            <p>Услуги</p>
+            <svg class="nav__white-arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <path d="M5 5.05746L5 11.9425C5 12.777 5.96169 13.2444 6.61782 12.7289L10.9992 9.28632C11.5088 8.88594 11.5088 8.11406 10.9992 7.71368L6.61782 4.27114C5.96169 3.75562 5 4.22303 5 5.05746Z" fill="black"/>
+            </svg>
+          </div>
+          <ul class="nav__dropdown search">
+            <li><a href="#">Поиск товара и поставщика</a></li>
+            <li><a href="#">Поиск производителей определенной категории</a></li>
+            <li><a href="#">Услуга заказа образцов</a></li>
+            <li><a href="#">Услуга общения с поставщиком</a></li>
+            <li><a href="#">Поиск производства для разработки товара c индивидуальным запросом (ОDМ)</a></li>
+            <li><a href="#">Поиск производства для разработки товара под собственным брендом (ОЕМ)</a></li>
+          </ul>
+        </li>
+        <li class="nav__li">
+          <div class="nav__li-wrapper">
+            <p>Выкуп</p>
+            <svg class="nav__white-arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <path d="M5 5.05746L5 11.9425C5 12.777 5.96169 13.2444 6.61782 12.7289L10.9992 9.28632C11.5088 8.88594 11.5088 8.11406 10.9992 7.71368L6.61782 4.27114C5.96169 3.75562 5 4.22303 5 5.05746Z" fill="black"/>
+            </svg>
+          </div>
+          <ul class="nav__dropdown buy">
+            <li><a href="#">Выкуп товара с 1688</a></li>
+            <li><a href="#">Выкуп товара с Таобао</a></li>
+            <li><a href="#">Выкуп товара с Алибаба</a></li>
+          </ul>
+        </li>
+        <li class="nav__li">
+          <div class="nav__li-wrapper">
+            <p>Доставка</p>
+            <svg class="nav__white-arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <path d="M5 5.05746L5 11.9425C5 12.777 5.96169 13.2444 6.61782 12.7289L10.9992 9.28632C11.5088 8.88594 11.5088 8.11406 10.9992 7.71368L6.61782 4.27114C5.96169 3.75562 5 4.22303 5 5.05746Z" fill="black"/>
+            </svg>
+          </div>
+          <ul class="nav__dropdown delivery">
+            <li><a href="#">Доставка сборных грузов</a></li>
+            <li><a href="#">Доставка оборудования</a></li>
+            <li><a href="#">Доставка мелких грузов</a></li>
+            <li><a href="#">Доставка образцов и пробников</a></li>
+            <li><a href="#">Авиа</a></li>
+            <li><a href="#">Авто</a></li>
+            <li><a href="#">Морем</a></li>
+            <li><a href="#">Поездом Ж/Д</a></li>
+            <li><a href="#">Доставка контейнером из Китая</a></li>
+          </ul>
+        </li>
+        <li class="nav__li">
+          <div class="nav__li-wrapper">
+            <p>О компании</p>
+            <svg class="nav__white-arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <path d="M5 5.05746L5 11.9425C5 12.777 5.96169 13.2444 6.61782 12.7289L10.9992 9.28632C11.5088 8.88594 11.5088 8.11406 10.9992 7.71368L6.61782 4.27114C5.96169 3.75562 5 4.22303 5 5.05746Z" fill="black"/>
+            </svg>
+          </div>
+          <ul class="nav__dropdown review">
+            <li><a href="#">Отзывы</a></li>
+            <li><a href="#">Вакансии</a></li>
+          </ul>
+        </li>
+        <li class="nav__li"><a href="#">Блог</a></li>
+        <li class="nav__li"><a href="#">Для маркетплейсов</a></li>
+        <li class="nav__li"><a href="#">Контакты</a></li>
+      </ul>
+      <div class="burger__icon-wrapper">
+        <span class="burger"></span>
+      </div>
+
+      <div class="burger__wrapper">
+        <ul class="nav__ul burgerMenu">
+          <li class="nav__li">
+            <a href="#">Главная</a>
+          </li>
+          <li class="nav__li">
+            <div class="nav__li-wrapper">
+              <p>Услуги</p>
+              <svg class="nav__white-arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                <path d="M5 5.05746L5 11.9425C5 12.777 5.96169 13.2444 6.61782 12.7289L10.9992 9.28632C11.5088 8.88594 11.5088 8.11406 10.9992 7.71368L6.61782 4.27114C5.96169 3.75562 5 4.22303 5 5.05746Z" fill="black"/>
+              </svg>
+            </div>
+            <ul class="nav__dropdown search">
+              <li><a href="#">Поиск товара и поставщика</a></li>
+              <li><a href="#">Поиск производителей определенной категории</a></li>
+              <li><a href="#">Услуга заказа образцов</a></li>
+              <li><a href="#">Услуга общения с поставщиком</a></li>
+              <li><a href="#">Поиск производства для разработки товара c индивидуальным запросом (ОDМ)</a></li>
+              <li><a href="#">Поиск производства для разработки товара под собственным брендом (ОЕМ)</a></li>
+            </ul>
+          </li>
+          <li class="nav__li">
+            <div class="nav__li-wrapper">
+              <p>Выкуп</p>
+              <svg class="nav__white-arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                <path d="M5 5.05746L5 11.9425C5 12.777 5.96169 13.2444 6.61782 12.7289L10.9992 9.28632C11.5088 8.88594 11.5088 8.11406 10.9992 7.71368L6.61782 4.27114C5.96169 3.75562 5 4.22303 5 5.05746Z" fill="black"/>
+              </svg>
+            </div>
+            <ul class="nav__dropdown buy">
+              <li><a href="#">Выкуп товара с 1688</a></li>
+              <li><a href="#">Выкуп товара с Таобао</a></li>
+              <li><a href="#">Выкуп товара с Алибаба</a></li>
+            </ul>
+          </li>
+          <li class="nav__li">
+            <div class="nav__li-wrapper">
+              <p>Доставка</p>
+              <svg class="nav__white-arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                <path d="M5 5.05746L5 11.9425C5 12.777 5.96169 13.2444 6.61782 12.7289L10.9992 9.28632C11.5088 8.88594 11.5088 8.11406 10.9992 7.71368L6.61782 4.27114C5.96169 3.75562 5 4.22303 5 5.05746Z" fill="black"/>
+              </svg>
+            </div>
+            <ul class="nav__dropdown delivery">
+              <li><a href="#">Доставка сборных грузов</a></li>
+              <li><a href="#">Доставка оборудования</a></li>
+              <li><a href="#">Доставка мелких грузов</a></li>
+              <li><a href="#">Доставка образцов и пробников</a></li>
+              <li><a href="#">Авиа</a></li>
+              <li><a href="#">Авто</a></li>
+              <li><a href="#">Морем</a></li>
+              <li><a href="#">Поездом Ж/Д</a></li>
+              <li><a href="#">Доставка контейнером из Китая</a></li>
+            </ul>
+          </li>
+          <li class="nav__li">
+            <div class="nav__li-wrapper">
+              <p>О компании</p>
+              <svg class="nav__white-arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                <path d="M5 5.05746L5 11.9425C5 12.777 5.96169 13.2444 6.61782 12.7289L10.9992 9.28632C11.5088 8.88594 11.5088 8.11406 10.9992 7.71368L6.61782 4.27114C5.96169 3.75562 5 4.22303 5 5.05746Z" fill="black"/>
+              </svg>
+            </div>
+            <ul class="nav__dropdown review">
+              <li><a href="#">Отзывы</a></li>
+              <li><a href="#">Вакансии</a></li>
+            </ul>
+          </li>
+          <li class="nav__li"><a href="#">Блог</a></li>
+          <li class="nav__li"><a href="#">Для маркетплейсов</a></li>
+          <li class="nav__li"><a href="#">Контакты</a></li>
+        </ul>
+      </div>
+
+    </nav>
+    <main class="main">
+      <section class="intro">
+        <div class="intro__title-wrapper">
+          <h1 class="intro__title">
+            Доставка из Китая
+            <br>
+            за 12 дней и от 2,2$/кг
+          </h1>
+          <p class="intro__text">Успей забронировать 3 спецпредложени</p>
+          <ul class="intro__items">
+            <li class="intro__item"><img src="./assets/icons/gal.svg" alt="China"> Первый заказ комиссия - 0%</li>
+            <li class="intro__item"><img src="./assets/icons/gal.svg" alt=""> Бесплатный поиск товара</li>
+            <li class="intro__item"><img src="./assets/icons/gal.svg" alt=""> Бесплатная отгрузка на маркетплейсы</li>
+          </ul>
+          <div class="intro__btns-wrapper">
+            <a href="">Комиссия 0%</a>
+            <a href="">Поиск товара 0 р.</a>
+          </div>
+          <a class="intro__btn-large" href="">Бесплатный фулфилмент</a>
+        </div>
+        <div class="intro__img-wrapper">
+          <img class="intro__img" src="./assets/china-box.jpeg" alt="china bg">
+        </div>
+      </section>
+
+      <section class="calc">
+        <h2 class="calc__title">Заполните форму, 
+        </br>
+          чтобы узнать стоимость!</h2>
+        <div class="calc__wrapper">
+          <div class="calc__img-wrapper">
+            <img class="calc__img" src="./assets/china-box.jpeg" alt="China">
+          </div>
+          <form class="calc__form" action="">
+            <div class="first__step">
+              <label class="calc__label" for="chinaCity">Откуда</label>
+              <select class="calc__select" name="chinaCity" id="chinaCity">
+                <option value="">Гуанджоу</option>
+                <option value="">Иу</option>
+                <option value="">Урумчи</option>
+                <option value="">Маньчжурия</option>
+              </select>
+              <label class="calc__label" for="">Куда</label>
+              <input class="calc__input" type="text" placeholder="Москва">
+              <label class="calc__label" for="">Вид товара</label>
+              <select class="calc__select" name="chinaCity" id="chinaCity">
+                <option value="">Электроника без АКБ</option>
+                <option value="">Электроника с АКБ</option>
+                <option value="">Обувь, одежда, сумки</option>
+                <option value="">Текстиль</option>
+                <option value="">Хоз. товары</option>
+                <option value="">Автозапчасти</option>
+                <option value="">Оборудование и инструмент</option>
+                <option value="">Мебель</option>
+                <option value="">Игрушки</option>
+                <option value="">Аксессуары</option>
+                <option value="">Спорт.инвентарь</option>
+                <option value="">Видеокарты</option>
+              </select>
+            </div>
+            <div class="second__step close">
+              <label class="calc__label" for="">Длина,см</label>
+              <input required class="calc__input" type="text" placeholder="Длина,см">
+              <label class="calc__label" for="">Ширина,см</label>
+              <input required class="calc__input" type="text" placeholder="Ширина,см">
+              <label class="calc__label" for="">Высота,см</label>
+              <input required class="calc__input" type="text" placeholder="Высота,см">
+              <label class="calc__label" for="">Масса,кг</label>
+              <input required class="calc__input" type="text" placeholder="Масса,кг">
+            </div>
+            <div class="final__step close">
+              <label class="calc__label" for="">Ваше имя</label>
+              <input required class="calc__input" type="text" placeholder="Имя (Обязательно)">
+              <label class="calc__label" for="">Ваше телефон</label>
+              <input required class="calc__input" type="text" placeholder="Ваше телефон">
+              <label class="calc__label" for="">Ваш телеграм</label>
+              <input required class="calc__input" type="text" placeholder="@telegram">
+              <label class="calc__label" for="">Комментарий</label>
+              <input required class="calc__input" type="text" placeholder="Комментарий">
+              <div class="checkbox__wrapper">
+                <input id="form__checkbox" required class="calc__input" type="checkbox">
+                <label class="calc__label" for="form__checkbox">Нажимая кнопку «Отправить» вы соглашаетесь с <a href="#">Политикой обработки персональных данных</a></label>
+              </div>
+            </div>
+            <button class="calc__button first">Следующая</button>
+            <button class="calc__button prev first hide">Предыдующая</button>
+            <button class="calc__button second hide">Следующая</button>
+            <button class="calc__button prev second hide">Предыдующая</button>
+            <button class="calc__button send hide">Отправить</button>
+          </form>
+        </div>
+      </section>
+
+      <section class="help">
+        <div class="help__wrapper">
+          <div class="help__item">
+            <div class="help__icon-wrapper">
+              <img class="help__icon" src="" alt="">
+            </div>
+            <h4 class="help__title">Найдем поставщика</h4>
+            <p class="help__text">Найдем товар или поставщика в Китае</p>
+          </div>
+          <div class="help__item">
+            <div class="help__icon-wrapper">
+              <img class="help__icon" src="" alt="">
+            </div>
+            <h4 class="help__title">Выкуп товара</h4>
+            <p class="help__text">Выкупим с 1688, Alibaba, Тaobao и заводов китая</p>
+          </div>
+          <div class="help__item">
+            <div class="help__icon-wrapper">
+              <img class="help__icon" src="" alt="">
+            </div>
+            <h4 class="help__title">Контроль качества</h4>
+            <p class="help__text">Проверяем товар перед отправкой в РФ</p>
+          </div>
+          <div class="help__item">
+            <div class="help__icon-wrapper">
+              <img class="help__icon" src="" alt="">
+            </div>
+            <h4 class="help__title">Отгрузка на маркетплейсы</h4>
+            <p class="help__text">Бесплатно отгрузим на маркетплейсы с наших складов в РФ</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="storage">
+        <div class="storage__wrapper">
+          <img class="storage__img" src="./assets/china-box.jpeg" alt="">
+          <div class="storage__about">
+            <h3 class="storage__title">Собственные склады в Китае</h3>
+            <p class="storage__text">Возможность заказать товар с китайских площадок и привезти сразу на наш склад в городе:</p>
+            <ul class="storage__list">
+              <li class="storage__city">Гуанчжоу;</li>
+              <li class="storage__city">ИУ;</li>
+            </ul>
+            <a class="storage__contacts" href="#">Наши контакты</a>
+          </div>
+        </div>
+      </section>
+      
+      <section class="company">
+        <div class="company__wrapper">
+          <div class="company__text-wrapper">
+            <h3 class="company__title">О компании FLG</h3>
+            <p class="company__text">Поможем найти вам товар или поставщика в Китае. Возьмем на себя выкуп под ключ товаров с любых китайских площадок по выгодной цене и с гарантией результата. Доставим ваш товар в Россию Карго или в белую. Так же можем упаковать ваш товар и отправить на маркетплейсы..</p>
+            <!-- <p class="company__text">Самостоятельно строим и корректируем маршруты, помогаем каждому клиенту достигнуть своих целей в области логистики.</p> -->
+            <a class="company__btn" href="#">О компании</a>
+          </div>
+          <img class="company__img" src="./assets/china-box.jpeg" alt="China">
+        </div>
+      </section>
+
+      <section class="photo">
+        <div class="photo__wrapper">
+          <h2 class="photo__title">Фотографии груза</h2>
+
+          <div class="swiper mySwiper1">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="./assets/china-box.jpeg" alt="China">
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/china-box.jpeg" alt="China">
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/china-box.jpeg" alt="China">
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/china-box.jpeg" alt="China">
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/china-box.jpeg" alt="China">
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/china-box.jpeg" alt="China">
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/china-box.jpeg" alt="China">
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/china-box.jpeg" alt="China">
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/china-box.jpeg" alt="China">
+              </div>
+            </div>
+            <!-- <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div> -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="prices">
+        <div class="prices__wrapper">
+          <h2 class="prices__title">Цены доставки из ГУАНЧЖОУ</h2>
+          <div class="prices__blocks">
+            <div class="prices__block">
+              <h3 class="prices__subtitle">Экспресс</h3>
+              <p class="prices__price">от 3,1$</p>
+              <p class="prices__weight">за килограмм</p>
+              <p class="prices__days">10-12 дней</p>
+              <a class="prices__order" href="#">Заказать</a>
+            </div>
+            <div class="prices__block">
+              <h3 class="prices__subtitle">Быстрое</h3>
+              <p class="prices__price">от 2,9$</p>
+              <p class="prices__weight">за килограмм</p>
+              <p class="prices__days">12-18 дней</p>
+              <a class="prices__order" href="#">Заказать</a>
+            </div>
+            <div class="prices__block">
+              <h3 class="prices__subtitle">Медленное</h3>
+              <p class="prices__price">от 1,5$</p>
+              <p class="prices__weight">за килограмм</p>
+              <p class="prices__days">18-25 дней</p>
+              <a class="prices__order" href="#">Заказать</a>
+            </div>
+            <div class="prices__block">
+              <h3 class="prices__subtitle">Авиа</h3>
+              <p class="prices__price">от 30$</p>
+              <p class="prices__weight">за килограмм</p>
+              <p class="prices__days">4-5 дней</p>
+              <a class="prices__order" href="#">Заказать</a>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+
+      <section class="reviews">
+        <div class="reviews__wrapper">
+          <h2 class="reviews__title">Отзывы клиентов</h2>
+
+          <div class="swiper mySwiperReviews">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="./assets/china-box.jpeg" alt="China">
+                <p class="reviews__name">Иван И.</p>
+                <p class="reviews__who">предприниматель из Москвы</p>
+                <p class="reviews__text">
+                  Обратилась по рекомендации, меня не подвели. Спасибо за работу!
+                </p>
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/china-box.jpeg" alt="China">
+                <p class="reviews__name">Иван И.</p>
+                <p class="reviews__who">предприниматель из Москвы</p>
+                <p class="reviews__text">
+                  Обратилась по рекомендации, меня не подвели. Спасибо за работу!
+                </p>
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/china-box.jpeg" alt="China">
+                <p class="reviews__name">Иван И.</p>
+                <p class="reviews__who">предприниматель из Москвы</p>
+                <p class="reviews__text">
+                  Обратилась по рекомендации, меня не подвели. Спасибо за работу!
+                </p>
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/china-box.jpeg" alt="China">
+                <p class="reviews__name">Иван И.</p>
+                <p class="reviews__who">предприниматель из Москвы</p>
+                <p class="reviews__text">
+                  Обратилась по рекомендации, меня не подвели. Спасибо за работу!
+                </p>
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/china-box.jpeg" alt="China">
+                <p class="reviews__name">Иван И.</p>
+                <p class="reviews__who">предприниматель из Москвы</p>
+                <p class="reviews__text">
+                  Обратилась по рекомендации, меня не подвели. Спасибо за работу!
+                </p>
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/china-box.jpeg" alt="China">
+                <p class="reviews__name">Иван И.</p>
+                <p class="reviews__who">предприниматель из Москвы</p>
+                <p class="reviews__text">
+                  Обратилась по рекомендации, меня не подвели. Спасибо за работу!
+                </p>
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/china-box.jpeg" alt="China">
+                <p class="reviews__name">Иван И.</p>
+                <p class="reviews__who">предприниматель из Москвы</p>
+                <p class="reviews__text">
+                  Обратилась по рекомендации, меня не подвели. Спасибо за работу!
+                </p>
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/china-box.jpeg" alt="China">
+                <p class="reviews__name">Иван И.</p>
+                <p class="reviews__who">предприниматель из Москвы</p>
+                <p class="reviews__text">
+                  Обратилась по рекомендации, меня не подвели. Спасибо за работу!
+                </p>
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/china-box.jpeg" alt="China">
+                <p class="reviews__name">Иван И.</p>
+                <p class="reviews__who">предприниматель из Москвы</p>
+                <p class="reviews__text">
+                  Обратилась по рекомендации, меня не подвели. Спасибо за работу!
+                </p>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+          <a class="reviews__tg" href="#">Больше отзывов в нашем канале</a>
+          <a class="reviews__site" href="#">Больше отзывов на сайте</a>
+        </div>
+      </section>
+
+      <section class="helpBlock">
+        <div class="helpBlock__wrapper">
+          <h2 class="helpBlock__title">Получите бесплатную консультацию в WhatsApp</h2>
+          <p class="helpBlock__time">отвечаем с 09:00 до 21:00</p>
+          <img class="helpBlock__img" src="./assets/china-box.jpeg" alt="China">
+          <a class="helpBlock__btn" href="#">Получить консультацию</a>
+        </div>
+      </section>
+      
+      <section class="contact">
+        <div class="contact__wrapper">
+          <form class="contact__form">
+            <h2 class="contact__title">Оставьте заявку на бесплатную консультацию и получите</h2>
+            <p class="contact__sale">Скидку до 30% на логистику</p>
+            <p class="contact__sale">Персональный расчет стоимости</p>
+            <input class="contact__name" type="text" placeholder="Ваше имя">
+            <input class="contact__phone" type="tel" id="phone" placeholder="+7(999) 999-99-99">
+            <button class="contact__btn">Получить скидку</button>
+          </form>
+          <div class="contact__img-wrapper">
+            <img class="contact__img" src="./assets/china-box.jpeg" alt="China">
+          </div>
+        </div>
+      </section>
+
+    </main>
+    <footer class="footer">
+      <div class="footer__ask">
+        <h3>Не нашли нужную информацию?</h3>
+        <button>Задайте нам вопрос</button>
+      </div>
+      <div class="footer__info">
+        <img src="" alt="logo">
+        <p>ИП Иван Иванов ИНН:2419412949</p>
+        <p>8 888 888-88-88</p>
+        <p>Политика конфиденциальности</p>
+      </div>
+    </footer>
+
+
+    <!-- POPUP CALL -->
+    <div id="popup__call" class="popup__call">
+      <div class="popup__call__body">
+        <div class="popup__call__content">
+          <div class="popup__image-wrapper">
+            <img id="popupCall__close" class="popup__call__close-img" src="./assets/icons/cross.png">
+          </div>
+          <div class="popup__call__text-wrapper">
+            <p class="text-wrapper__title">Заполните форму</p>
+            <form action="" class="popup__form">
+              <input class="popup__form-input" type="text" placeholder="Ваше ФИО">
+              <input class="popup__form-input" type="tel" placeholder="Ваш телефон">
+              <input class="popup__form-input" type="text" placeholder="Удобное время для звонка">
+              <button class="popup__form-send">Отправить</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- POPUP CALL -->
+
+    <!-- BURGER -->
+
+    <!-- <div class="burger__wrapper">
+      <ul class="nav__ul burgerMenu">
+        <li class="nav__li">
+          <a href="#">Главная</a>
+        </li>
+        <li class="nav__li">
+          <div class="nav__li-wrapper">
+            <p>Услуги</p>
+            <svg class="nav__white-arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <path d="M5 5.05746L5 11.9425C5 12.777 5.96169 13.2444 6.61782 12.7289L10.9992 9.28632C11.5088 8.88594 11.5088 8.11406 10.9992 7.71368L6.61782 4.27114C5.96169 3.75562 5 4.22303 5 5.05746Z" fill="black"/>
+            </svg>
+          </div>
+          <ul class="nav__dropdown search">
+            <li><a href="#">Поиск товара и поставщика</a></li>
+            <li><a href="#">Поиск производителей определенной категории</a></li>
+            <li><a href="#">Услуга заказа образцов</a></li>
+            <li><a href="#">Услуга общения с поставщиком</a></li>
+            <li><a href="#">Поиск производства для разработки товара c индивидуальным запросом (ОDМ)</a></li>
+            <li><a href="#">Поиск производства для разработки товара под собственным брендом (ОЕМ)</a></li>
+          </ul>
+        </li>
+        <li class="nav__li">
+          <div class="nav__li-wrapper">
+            <p>Выкуп</p>
+            <svg class="nav__white-arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <path d="M5 5.05746L5 11.9425C5 12.777 5.96169 13.2444 6.61782 12.7289L10.9992 9.28632C11.5088 8.88594 11.5088 8.11406 10.9992 7.71368L6.61782 4.27114C5.96169 3.75562 5 4.22303 5 5.05746Z" fill="black"/>
+            </svg>
+          </div>
+          <ul class="nav__dropdown buy">
+            <li><a href="#">Выкуп товара с 1688</a></li>
+            <li><a href="#">Выкуп товара с Таобао</a></li>
+            <li><a href="#">Выкуп товара с Алибаба</a></li>
+          </ul>
+        </li>
+        <li class="nav__li">
+          <div class="nav__li-wrapper">
+            <p>Доставка</p>
+            <svg class="nav__white-arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <path d="M5 5.05746L5 11.9425C5 12.777 5.96169 13.2444 6.61782 12.7289L10.9992 9.28632C11.5088 8.88594 11.5088 8.11406 10.9992 7.71368L6.61782 4.27114C5.96169 3.75562 5 4.22303 5 5.05746Z" fill="black"/>
+            </svg>
+          </div>
+          <ul class="nav__dropdown delivery">
+            <li><a href="#">Доставка сборных грузов</a></li>
+            <li><a href="#">Доставка оборудования</a></li>
+            <li><a href="#">Доставка мелких грузов</a></li>
+            <li><a href="#">Доставка образцов и пробников</a></li>
+            <li><a href="#">Авиа</a></li>
+            <li><a href="#">Авто</a></li>
+            <li><a href="#">Морем</a></li>
+            <li><a href="#">Поездом Ж/Д</a></li>
+            <li><a href="#">Доставка контейнером из Китая</a></li>
+          </ul>
+        </li>
+        <li class="nav__li">
+          <div class="nav__li-wrapper">
+            <p>О компании</p>
+            <svg class="nav__white-arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <path d="M5 5.05746L5 11.9425C5 12.777 5.96169 13.2444 6.61782 12.7289L10.9992 9.28632C11.5088 8.88594 11.5088 8.11406 10.9992 7.71368L6.61782 4.27114C5.96169 3.75562 5 4.22303 5 5.05746Z" fill="black"/>
+            </svg>
+          </div>
+          <ul class="nav__dropdown review">
+            <li><a href="#">Отзывы</a></li>
+            <li><a href="#">Вакансии</a></li>
+          </ul>
+        </li>
+        <li class="nav__li"><a href="#">Блог</a></li>
+        <li class="nav__li"><a href="#">Для маркетплейсов</a></li>
+        <li class="nav__li"><a href="#">Контакты</a></li>
+      </ul>
+    </div> -->
+
+
+    <!-- BURGER -->
+
+  </div>
+</body>
+
+</html>
