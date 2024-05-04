@@ -1,0 +1,12 @@
+/* RESET */
+@import url('../reset.css');
+/* COMMON */
+@import url('../common.css');
+/* SEARCHITEMS */
+@import url('../searchItems/searchItems.css');
+/* MAIN */
+@import url('../main/main.css');
+/* HEADER */
+@import url('../header.css');
+/* FOOTER */
+@import url('../footer.css');

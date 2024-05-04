@@ -1,0 +1,230 @@
+/* BUYOUT */
+
+.buyout {
+  margin-top: 80px;
+}
+.buyout__wrapper {
+  max-width: 1290px;
+  padding: 0 20px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.buyout__title {
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+}
+.buyout__text {
+  margin-top: 25px;
+  font-size: 28px;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.buyout__item {
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+.buyout__item img {
+  width: 20px;
+  height: 20px;
+}
+.buyout__links-wrapper {
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+}
+.buyout__link {
+  border-radius: 10px;
+  width: fit-content;
+  display: block;
+  font-family: "Roboto", sans-serif;
+  background-color: #ffcc00;
+  padding: 18px 40px;
+  transition: .2s ease all;
+}
+.buyout__link:hover {
+  transform: translateY(3px);
+}
+
+.buyout__img-wrapper img {
+  max-width: 600px;
+  width: 100%;
+}
+
+/* BUYOUT */
+
+
+
+/* BUYOUT PLANS */
+
+.buyoutPlans {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+.buyoutPlans__wrapper {
+  max-width: 1390px;
+  padding: 0 20px;
+  width: 100%;
+  margin: 0 auto;
+}
+.buyoutPlans__title {
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+  font-size: 31px;
+}
+.buyoutPlans__items {
+  gap: 20px;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.buyoutPlans__item {
+  background-color: #ebebf273;
+  border-radius: 10px;
+  max-width: 240px;
+  width: 100%;
+  border-radius: 10px;
+}
+.buyoutPlans__item-title {
+  border-radius: 10px;
+  text-align: center;
+  background-color: #ffcc00;
+  padding: 25px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+}
+.buyoutPlans__item-first {
+  font-weight: 500;
+  color: #555555;
+  text-align: center;
+  padding: 30px 0 20px;
+  font-size: 17px;
+  font-family: 'Roboto', sans-serif;
+}
+.buyoutPlans__item-price {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+.buyoutPlans__item-order {
+  width: fit-content;
+  background-color: #ffcc00;
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 18px 30px;
+  border-radius: 10px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  transition: .2s ease all;
+}
+.buyoutPlans__item-order:hover {
+  transform: translateY(3px);
+}
+
+
+/* BUYOUT PLANS */
+
+
+/* BUYOUT TEXT */
+
+.buyoutText {
+  margin-top: 150px;
+}
+.buyoutText__wrapper {
+  padding: 0 20px;
+  max-width: 1350px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.buyoutText__text {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 120%;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+.buyoutText__title {
+  font-size: 32px;
+  font-weight: 500;
+  margin-top: 30px;
+  font-family: 'Roboto', sans-serif;
+}
+.buyoutText__subtitle {
+  font-size: 28px;
+  font-weight: 400;
+  margin-top: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+.buyoutText__list {
+  margin-left: 20px;
+  margin-top: 20px;
+  list-style: circle;
+}
+.buyoutText__item {
+  list-style: disc;
+  font-weight: 300;
+  line-height: 120%;
+  letter-spacing: 1px;
+  margin-top: 15px;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+/* BUYOUT TEXT */
+
+@media (max-width: 1100px) {
+  .buyout__wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+  .buyout {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 700px) {
+  .buyout__title {
+    font-size: 36px;
+  }
+  .buyout__text {
+    font-size: 22px;
+  }
+  .buyoutText__title {
+    font-size: 26px;
+  }
+  .buyoutText__subtitle {
+    font-size: 20px;
+  }
+  .buyoutText__text {
+    font-size: 16px;
+  }
+
+}
+@media (max-width: 470px) {
+  .buyout__links-wrapper {
+    flex-direction: column;
+  }
+  .buyout__link {
+    text-align: center;
+    width: 100%;
+  }
+  .buyout__title {
+    font-size: 28px;
+  }
+  .buyoutPlans {
+    margin-top: 50px;
+  }
+}

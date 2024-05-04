@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/searchProducer/styles-searchProducer.css">
+  <script src="./scripts/searchProducer.js" defer></script>
+  <title>China contacts</title>
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <ul class="header__ul">
+        <!-- <li class="header__li"><img class="header__img" src="./assets/china-logo.png" alt="china"></li> -->
+        <li class="header__li">Доставка из Китая</li>
+        <li class="header__li">Написать руководителю</li>
+        <li id="popupCall__open" class="header__li">
+          <p class="header__p">8 888 888-88-88</p>
+          <span class="header__span">заказать звонок</span>
+        </li>
+      </ul>
+    </header>
+    <nav class="nav">
+      <ul class="nav__ul">
+        <li class="nav__li">
+          <a href="#">Главная</a>
+        </li>
+        <li class="nav__li">
+          <div class="nav__li-wrapper">
+            <p>Услуги</p>
+            <svg class="nav__white-arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <path d="M5 5.05746L5 11.9425C5 12.777 5.96169 13.2444 6.61782 12.7289L10.9992 9.28632C11.5088 8.88594 11.5088 8.11406 10.9992 7.71368L6.61782 4.27114C5.96169 3.75562 5 4.22303 5 5.05746Z" fill="black"/>
+            </svg>
+          </div>
+          <ul class="nav__dropdown search">
+            <li><a href="search-items.html">Поиск товара и поставщика</a></li>
+            <li><a href="search-producer.html">Поиск производителей определенной категории</a></li>
+            <li><a href="service-order.html">Услуга заказа образцов</a></li>
+            <li><a href="service-talk.html">Услуга общения с поставщиком</a></li>
+            <li><a href="#">Поиск производства для разработки товара c индивидуальным запросом (ОDМ)</a></li>
+            <li><a href="#">Поиск производства для разработки товара под собственным брендом (ОЕМ)</a></li>
+          </ul>
+        </li>
+        <li class="nav__li">
+          <div class="nav__li-wrapper">
+            <p>Выкуп</p>
+            <svg class="nav__white-arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <path d="M5 5.05746L5 11.9425C5 12.777 5.96169 13.2444 6.61782 12.7289L10.9992 9.28632C11.5088 8.88594 11.5088 8.11406 10.9992 7.71368L6.61782 4.27114C5.96169 3.75562 5 4.22303 5 5.05746Z" fill="black"/>
+            </svg>
+          </div>
+          <ul class="nav__dropdown buy">
+            <li><a href="buyout1688.html">Выкуп товара с 1688</a></li>
+            <li><a href="buyout-taobao.html">Выкуп товара с Таобао</a></li>
+            <li><a href="buyout-alibaba.html">Выкуп товара с Алибаба</a></li>
+          </ul>
+        </li>
+        <li class="nav__li">
+          <div class="nav__li-wrapper">
+            <p>Доставка</p>
+            <svg class="nav__white-arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <path d="M5 5.05746L5 11.9425C5 12.777 5.96169 13.2444 6.61782 12.7289L10.9992 9.28632C11.5088 8.88594 11.5088 8.11406 10.9992 7.71368L6.61782 4.27114C5.96169 3.75562 5 4.22303 5 5.05746Z" fill="black"/>
+            </svg>
+          </div>
+          <ul class="nav__dropdown delivery">
+            <li><a href="collected-cargo.html">Доставка сборных грузов</a></li>
+            <li><a href="equipment.html">Доставка оборудования</a></li>
+            <li><a href="small-packages.html">Доставка мелких грузов</a></li>
+            <li><a href="samples.html">Доставка образцов и пробников</a></li>
+            <li><a href="avia.html">Авиа</a></li>
+            <li><a href="auto.html">Авто</a></li>
+            <li><a href="sea.html">Морем</a></li>
+            <li><a href="train.html">Поездом Ж/Д</a></li>
+            <li><a href="container.html">Доставка контейнером из Китая</a></li>
+          </ul>
+        </li>
+        <li class="nav__li">
+          <div class="nav__li-wrapper">
+            <p>О компании</p>
+            <svg class="nav__white-arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <path d="M5 5.05746L5 11.9425C5 12.777 5.96169 13.2444 6.61782 12.7289L10.9992 9.28632C11.5088 8.88594 11.5088 8.11406 10.9992 7.71368L6.61782 4.27114C5.96169 3.75562 5 4.22303 5 5.05746Z" fill="black"/>
+            </svg>
+          </div>
+          <ul class="nav__dropdown review">
+            <li><a href="reviews.html">Отзывы</a></li>
+            <li><a href="#">Вакансии</a></li>
+          </ul>
+        </li>
+        <li class="nav__li"><a href="blog.html">Блог</a></li>
+        <li class="nav__li"><a href="marketplace.html">Для маркетплейсов</a></li>
+        <li class="nav__li"><a href="contacts.html">Контакты</a></li>
+      </ul>
+      <div class="burger__icon-wrapper">
+        <span class="burger"></span>
+      </div>
+
+      <div class="burger__wrapper">
+        <ul class="nav__ul burgerMenu">
+          <li class="nav__li">
+            <a href="index.html">Главная</a>
+          </li>
+          <li class="nav__li">
+            <div class="nav__li-wrapper">
+              <p>Услуги</p>
+              <svg class="nav__white-arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                <path d="M5 5.05746L5 11.9425C5 12.777 5.96169 13.2444 6.61782 12.7289L10.9992 9.28632C11.5088 8.88594 11.5088 8.11406 10.9992 7.71368L6.61782 4.27114C5.96169 3.75562 5 4.22303 5 5.05746Z" fill="black"/>
+              </svg>
+            </div>
+            <ul class="nav__dropdown search">
+              <li><a href="search-items.html">Поиск товара и поставщика</a></li>
+              <li><a href="search-producer.html">Поиск производителей определенной категории</a></li>
+              <li><a href="service-order.html">Услуга заказа образцов</a></li>
+              <li><a href="service-talk.html">Услуга общения с поставщиком</a></li>
+              <li><a href="#">Поиск производства для разработки товара c индивидуальным запросом (ОDМ)</a></li>
+              <li><a href="#">Поиск производства для разработки товара под собственным брендом (ОЕМ)</a></li>
+            </ul>
+          </li>
+          <li class="nav__li">
+            <div class="nav__li-wrapper">
+              <p>Выкуп</p>
+              <svg class="nav__white-arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                <path d="M5 5.05746L5 11.9425C5 12.777 5.96169 13.2444 6.61782 12.7289L10.9992 9.28632C11.5088 8.88594 11.5088 8.11406 10.9992 7.71368L6.61782 4.27114C5.96169 3.75562 5 4.22303 5 5.05746Z" fill="black"/>
+              </svg>
+            </div>
+            <ul class="nav__dropdown buy">
+              <li><a href="buyout1688.html">Выкуп товара с 1688</a></li>
+              <li><a href="buyout-taobao.html">Выкуп товара с Таобао</a></li>
+              <li><a href="buyout-alibaba.html">Выкуп товара с Алибаба</a></li>
+            </ul>
+          </li>
+          <li class="nav__li">
+            <div class="nav__li-wrapper">
+              <p>Доставка</p>
+              <svg class="nav__white-arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                <path d="M5 5.05746L5 11.9425C5 12.777 5.96169 13.2444 6.61782 12.7289L10.9992 9.28632C11.5088 8.88594 11.5088 8.11406 10.9992 7.71368L6.61782 4.27114C5.96169 3.75562 5 4.22303 5 5.05746Z" fill="black"/>
+              </svg>
+            </div>
+            <ul class="nav__dropdown delivery">
+              <li><a href="collected-cargo.html">Доставка сборных грузов</a></li>
+              <li><a href="equipment.html">Доставка оборудования</a></li>
+              <li><a href="small-packages.html">Доставка мелких грузов</a></li>
+              <li><a href="samples.html">Доставка образцов и пробников</a></li>
+              <li><a href="avia.html">Авиа</a></li>
+              <li><a href="auto.html">Авто</a></li>
+              <li><a href="sea.html">Морем</a></li>
+              <li><a href="train.html">Поездом Ж/Д</a></li>
+              <li><a href="container.html">Доставка контейнером из Китая</a></li>
+            </ul>
+          </li>
+          <li class="nav__li">
+            <div class="nav__li-wrapper">
+              <p>О компании</p>
+              <svg class="nav__white-arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                <path d="M5 5.05746L5 11.9425C5 12.777 5.96169 13.2444 6.61782 12.7289L10.9992 9.28632C11.5088 8.88594 11.5088 8.11406 10.9992 7.71368L6.61782 4.27114C5.96169 3.75562 5 4.22303 5 5.05746Z" fill="black"/>
+              </svg>
+            </div>
+            <ul class="nav__dropdown review">
+              <li><a href="reviews.html">Отзывы</a></li>
+              <li><a href="#">Вакансии</a></li>
+            </ul>
+          </li>
+          <li class="nav__li"><a href="blog.html">Блог</a></li>
+          <li class="nav__li"><a href="marketplace.html">Для маркетплейсов</a></li>
+          <li class="nav__li"><a href="contacts.html">Контакты</a></li>
+        </ul>
+      </div>
+
+    </nav>
+    <main class="main">
+      
+      <section class="searchItems">
+        <div class="searchItems__wrapper">
+          <div class="searchItems__text-wrapper">
+            <h1 class="searchItems__title">Поиск производителей определенной категории</h1>
+            <p class="searchItems__price-small">СТОИМОСТЬ:</p>
+            <p class="searchItems__price-big">6000 RUB / 1 КАТЕГОРИЯ ТОВАРА</p>
+            <p class="searchItems__price-small">СРОК ИСПОЛНЕНИЯ:</p>
+            <p class="searchItems__price-big">В ТЕЧЕНИЕ 3-Х РАБОЧИХ ДНЕЙ</p>
+            <a class="searchItems__btn" href="#">Оформить услугу</a>
+          </div>
+          <div class="searchItems__img-wrapper">
+            <img src="./assets/china-box.jpeg" alt="China">
+          </div>
+        </div>
+      </section>
+      
+      <section class="searchHelp">
+        <div class="searchHelp__wrapper">
+          <h2>Поиск производителей определенной категории товара</h2>
+          <p>Услуга “Поиск производителя в Китае” – это комплексное решение для предпринимателей и компаний, стремящихся найти надежных поставщиков и производителей товаров в Китае.</p>
+          <p>Поиск производителей осуществляется на китайской оптовой площадке 1688, которая прозрачно отражает показатели работы завода или фабрики, а также гарантированно защищает покупателя при заказе любых товаров.</p>
+        </div>
+      </section>
+
+      <section class="steps">
+        <div class="steps__wrapper">
+          <div class="steps__img-wrapper">
+            <img src="./assets/china-box.jpeg" alt="China">
+          </div>
+          <div class="steps__text-wrapper">
+            <!-- <h2 class="steps__title">Наши Шаги по поиску поставщика:</h2> -->
+            <ul class="steps__list">
+              <li class="steps__item">Маркет-анализ: Мы проводим тщательный анализ рынка, исследуя секторы, тренды и конкуренцию. Это позволяет нам определить наиболее подходящие области для поиска поставщиков.</li>
+              <li class="steps__item">Отбор Потенциальных Поставщиков: Наши эксперты составляют список потенциальных поставщиков, учитывая их репутацию, опыт, сертификацию и качество предлагаемых товаров.</li>
+              <li class="steps__item">Проверка Достоверности: Мы проводим дополнительную проверку поставщиков, включая проверку юридической деятельности, регистрации, наличие лицензий и сертификатов качества.</li>
+              <li class="steps__item">Переговоры и Определение Условий: Мы ведем переговоры с выбранными поставщиками от вашего имени, обсуждаем условия поставки, цены, качество и другие важные параметры.</li>
+              <li class="steps__item">Подробный Отчет: По завершении процесса, мы предоставляем вам подробный отчет о каждом потенциальном поставщике, включая рекомендации и рейтинг поставщиков.</li>
+            </ul>
+            <p class="steps__text">Данная услуга выполняется единовременно, т.е. после оказания услуги поиска невозможно вносить какие-либо корректировки, заменять или дополнять товар на поиск, а также, дополнять вопросы к поставщикам.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="company">
+        <div class="company__wrapper">
+          <div class="company__text-wrapper">
+            <h3 class="company__title">О компании FLG</h3>
+            <p class="company__text">Поможем найти вам товар или поставщика в Китае. Возьмем на себя выкуп под ключ товаров с любых китайских площадок по выгодной цене и с гарантией результата. Доставим ваш товар в Россию Карго или в белую. Так же можем упаковать ваш товар и отправить на маркетплейсы..</p>
+            <a class="company__btn" href="#">О компании</a>
+          </div>
+          <img class="company__img" src="./assets/china-box.jpeg" alt="China">
+        </div>
+      </section>
+
+      <section class="companyAbout">
+        <div class="companyAbout__wrapper">
+          <h2 class="companyAbout__title">Поиск поставщика в Китае</h2>
+          <p class="companyAbout__text">Российские предприниматели на протяжении многих лет регулярно сотрудничают с восточными жителями. Однако некоторые опасаются работать с китайцами по нескольким причинам. Одна из ключевых задач для построения прибыльного бизнеса – поиск надёжного поставщика в Китае. Высокие риски связаны с неправильным подбором торгового партнёра в КНР. Другие же предпочитают работать с фабриками напрямую, однако здесь важно найти такое производство, которое будет четко следовать договору.</p>
+          <h2 class="companyAbout__title">Как работать с Китаем без рисков</h2>
+          <p class="companyAbout__text">Самостоятельный поиск поставщика в Китае связан с высокими рисками и большими убытками. Дело в том, что даже в этой области часто встречаются мошенники, которые представляются контрагентами, хотя на самом деле такими не являются. В итоге клиент остаётся без предоплаты, которую он перевёл торговому партнёру, когда тот по каким-то неведомым причинам бесследно исчезает.</p>
+          <p class="companyAbout__text">Именно для снижения рисков к нулю настоятельно рекомендуется доверить поиск надёжного поставщика или фабрики опытному посреднику. Так, стоимость услуг полностью оправдает ожидания, клиент останется с качественной продукцией и отсутствием убытков. Находясь продолжительное время на территории КНР, мы успели хорошо познать местные аспекты ведения бизнеса.</p>
+          <p class="companyAbout__text">Предлагая комплексные услуги по подбору товаров и производителей в КНР, наши специалисты обеспечивают выполнение всех условий благодаря реальным возможностям:</p>
+          <ul class="companyAbout__list">
+            <li class="companyAbout__item">опытные переводчики для связи с китайцами;</li>
+            <li class="companyAbout__item">большое количество контактов проверенных поставщиков;</li>
+            <li class="companyAbout__item">обширная клиентская база;</li>
+            <li class="companyAbout__item">приемлемая стоимость доставки товаров до покупателя;</li>
+            <li class="companyAbout__item">развитая логистика;</li>
+            <li class="companyAbout__item">лицензии на ведение деятельности;</li>
+          </ul>
+          <p class="companyAbout__text">Помните, что, сотрудничая с компанией <a href="#">FLG</a>, вы защищаете себя от рисков и финансовых потерь.</p>
+          <h2 class="companyAbout__title">Преимущества сотрудничества с КНР</h2>
+          <p class="companyAbout__text">Вообще, практика показывает, что работа напрямую с производителем оказывается намного эффективнее. Именно по этой причине российские предприниматели предпочитают прямые поставки сразу с производства. Здесь производят любые товары, Китай по праву считается «мировой фабрикой».</p>
+          <p class="companyAbout__text">Для ведения бизнеса сотрудничество с китайскими фабриками является наиболее оптимальным вариантом за счёт ряда преимуществ:</p>
+          <ul class="companyAbout__list">
+            <li class="companyAbout__item">низкие цены;;</li>
+            <li class="companyAbout__item">высокой уровень качества товаров;</li>
+            <li class="companyAbout__item">изобилие продукции.</li>
+          </ul>
+          <p class="companyAbout__text">Китай уже давно старается влиться в глобальный рынок и сотрудничать со странами Европейского Союза, именно поэтому производители КНР подняли качество продукции до европейских стандартов. При этом рынок Китая предлагает не только бюджетный сегмент, но и производит элитные варианты товаров.</p>
+          <h2 class="companyAbout__title">Поиск проверенных партнёров в КНР</h2>
+          <p class="companyAbout__text">За многие годы деятельности компания FLG отработала точные схемы, позволяющие найти надёжных поставщиков и производителей на территории Китая. Прежде чем внести торгового партнёра в картотеку, наши сотрудники анализируют информацию по нему из базы данных ТПА, а также проверяют сведения о кредитоспособности. Вот, какие проверки осуществляют специалисты:</p>
+          <ul class="companyAbout__list">
+            <li class="companyAbout__item">1. наличие записей о ведении незаконной деятельности или совершенных правонарушений;</li>
+            <li class="companyAbout__item">2. соответствие юридического адреса на сайтах ТПА с действительностью;</li>
+            <li class="companyAbout__item">3. размер уставного капитала;</li>
+            <li class="companyAbout__item">4. даты открытия компании или фабрики;</li>
+            <li class="companyAbout__item">5. сведения о лице, наделённом правом сотрудничества с клиентами и подписью;</li>
+            <li class="companyAbout__item">6. разрешённые виды деятельности.</li>
+          </ul>
+          <p class="companyAbout__text">Прежде чем остановить выбор на конкретном поставщике или производители, специалисты компании тщательно анализируют информацию из открытого доступа, а также проверяют сайт партнёра. Также для нас важен опыт ведения бизнеса, тестирование качества продукции, объём реализуемых товаров и другие критерии, которые напрямую влияют на решение о надёжности поставщика.</p>
+          <h2  class="companyAbout__title">Преимущества работы с FLG</h2>
+          <p class="companyAbout__text">Предлагая услуги по поиску деловых партнёров на территории Китая, компания FLG возлагает на себя следующие обязанности:</p>
+          <ul class="companyAbout__list">
+            <li class="companyAbout__item">контроль за логистикой;</li>
+            <li class="companyAbout__item">хранение продукции;</li>
+            <li class="companyAbout__item">страхование;</li>
+            <li class="companyAbout__item">ведение переговоров и согласование условий в договоре и т.д.</li>
+          </ul>
+          <h3 class="companyAbout__subtitle">Наши Шаги по поиску поставщика:</h3>
+          <ul class="companyAbout__list">
+            <li class="companyAbout__item">1. Тщательный анализ рынка для определения оптимальной области поиска партнёра;</li>
+            <li class="companyAbout__item">2. Составление списков потенциальных контрагентов, учитывая их опыт работы, наличие лицензии и другие важные критерии;</li>
+            <li class="companyAbout__item">3. Проведение инспекции отобранных поставщиков. Мы тщательно анализируем выбранного партнёра на наличие лицензии, регистрации, сертификатов, позволяющие вести законную деятельность;</li>
+          </ul>
+          <h3 class="companyAbout__subtitle">Ведение переговоров</h3>
+          <p class="companyAbout__text"> Вам не требуется общаться с производителями, так как наши сотрудники взаимодействуют с китайцами от вашего имени.</p>
+          <p class="companyAbout__text">Подробный Отчет: после проведённой проверки мы предоставляем список потенциальных поставщиков с подробной информацией о каждом, включая репутацию и наши рекомендации.</p>
+          <h2 class="companyAbout__title">Почему стоит выбирать FLG </h2>
+          <p class="companyAbout__text">Отсутствие рисков. Мы работаем только с проверенными поставщиками и производителями, что позволяет избежать финансовых потерь и не нарваться на мошенников.</p>
+          <p class="companyAbout__text">Тщательный анализ на Рынке. Мы хорошо разбираемся в местных бизнес-процессах, что позволяет нам отыскать лучшие возможности для наших клиентов.</p>
+          <p class="companyAbout__text">Экономия временных затрат. Из-за отсутствия необходимости ведения переговоров с китайскими партнёрами, поиска поставщиков, вы можете сосредоточиться на других аспектах бизнеса. Мы найдём для вас лучших партнёров!</p>
+          <p class="companyAbout__text">Обратившись в нашу компанию, клиент освобождает себя от муторного поиска опытного поставщика в Китае. В итоге мы предоставляем целую картотеку с надёжными и выгодными вариантами партнёрства.</p>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="footer">
+      <div class="footer__ask">
+        <h3>Не нашли нужную информацию?</h3>
+        <button>Задайте нам вопрос</button>
+      </div>
+      <div class="footer__info">
+        <img src="" alt="logo">
+        <p>ИП Иван Иванов ИНН:2419412949</p>
+        <p>8 888 888-88-88</p>
+        <p>Политика конфиденциальности</p>
+      </div>
+    </footer>
+
+
+    <!-- POPUP CALL -->
+    <div id="popup__call" class="popup__call">
+      <div class="popup__call__body">
+        <div class="popup__call__content">
+          <div class="popup__image-wrapper">
+            <img id="popupCall__close" class="popup__call__close-img" src="./assets/icons/cross.png">
+          </div>
+          <div class="popup__call__text-wrapper">
+            <p class="text-wrapper__title">Заполните форму</p>
+            <form action="" class="popup__form">
+              <input class="popup__form-input" type="text" placeholder="Ваше ФИО">
+              <input class="popup__form-input" type="tel" placeholder="Ваш телефон">
+              <input class="popup__form-input" type="text" placeholder="Удобное время для звонка">
+              <button class="popup__form-send">Отправить</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- POPUP CALL -->
+
+
+  </div>
+
+</body>
+</html>

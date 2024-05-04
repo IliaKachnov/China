@@ -1,0 +1,277 @@
+.collectedCargo {
+  margin-top: 80px;
+}
+.collectedCargo__wrapper {
+  max-width: 1290px;
+  padding: 0 20px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.collectedCargo__title {
+  font-family: "Roboto", sans-serif;
+  font-size: 52px;
+  font-weight: 600;
+}
+.collectedCargo__text {
+  font-size: 31px;
+  margin-top: 30px;
+  font-family: "Roboto", sans-serif;
+}
+.collectedCargo__item {
+  display: flex;
+  gap: 10px;
+  font-weight: 300;
+  margin-top: 30px;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
+.collectedCargo__item img {
+  width: 20px;
+  height: 20px;
+}
+
+.collectedCargo__img {
+  max-width: 700px;
+  width: 100%;
+}
+
+/* CALCFORM */
+
+.calcForm {
+  margin-top: 100px;
+  padding: 0 20px;
+}
+.calcForm__wrapper {
+  max-width: 1250px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #ffcc00;
+  padding: 20px;
+  border-radius: 10px;
+}
+.calcForm__title {
+  font-size: 31px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+.calcForm__form {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.calcForm__first,
+.calcForm__second,
+.calcForm__third {
+  display: flex;
+  flex-direction: column;
+  max-width: 370px;
+  width: 100%;
+}
+
+.calcForm__label {
+  margin-top: 20px;
+  width: fit-content;
+  font-family: 'Roboto', sans-serif;
+  font-size: 21px;
+  font-weight: 400;
+}
+.calcForm__select,
+.calcForm__input {
+  font-family: 'Roboto', sans-serif;
+  margin-top: 10px;
+  border-radius: 10px;
+  max-width: 400px;
+  width: 100%;
+  padding: 10px 15px;
+  outline: none;
+  font-size: 18px;
+}
+.checkboxForm__wrapper {
+  display: flex;
+  gap: 10px;
+}
+.calcForm__send-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.calcForm__send {
+  border-radius: 10px;
+  font-family: "Roboto", sans-serif;
+  background-color: black;
+  color: #ffcc00;
+  padding: 15px 30px;
+}
+/* CALCFORM */
+
+
+/* PLANS */
+
+
+
+
+/* PLANS */
+
+.plans {
+  margin-top: 100px; 
+}
+.plans__wrapper {
+  max-width: 1290px;
+  padding: 0 20px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.plans__order,
+.plans__include,
+.plans__days,
+.plans__weight,
+.plans__item-title,
+.plans__title {
+  font-family: 'Roboto', sans-serif;
+}
+.plans__title {
+  font-size: 31px;
+  font-weight: 500;
+}
+
+.plans__items {
+  margin-top: 50px;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.plans__item {
+  border-radius: 10px;
+  max-width: 350px;
+  width: 100%;
+  background-color: #f5f5fc;
+}
+.plans__item-title {
+  border-radius: 10px;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  padding: 25px;
+  background-color: #F6DD6D;
+}
+.plans__weight {
+  text-align: center;
+  font-weight: 500;
+  font-size: 31px;
+  padding: 30px 0;
+}
+.plans__days {
+  margin: 0 auto;
+  width: fit-content;
+  font-size: 18px;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-bottom: 1px solid #ddd;
+}
+.plans__include {
+  margin-top: 20px;
+  text-align: center;
+}
+.plans__order-wrapper {
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+.plans__order {
+  border-radius: 10px;
+  background-color: black;
+  color: #f5f5fc;
+  margin: 0 auto;
+  width: fit-content;
+  text-align: center;
+  padding: 18px 40px;
+}
+
+
+/* cargoInfo */
+
+.cargoInfo {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.cargoInfo__wrapper {
+  max-width: 1290px;
+  padding: 0 20px;
+  width: 100%;
+  margin: 0 auto;
+}
+.cargoInfo__subtitle,
+.cargoInfo__text,
+.cargoInfo__title {
+  font-family: "Roboto", sans-serif;
+}
+.cargoInfo__title {
+  font-weight: 500;
+  font-size: 31px;
+  margin-bottom: 25px;
+}
+.cargoInfo__text {
+  line-height: 120%;
+  font-weight: 300;
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+.cargoInfo__subtitle {
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+
+
+
+/* cargoInfo */
+@media (max-width: 1250px) {
+  .calcForm__form {
+    flex-direction: column;
+  }
+  .calcForm__wrapper {
+    width: fit-content;
+  }
+  .calcForm__input,
+  .calcForm__select,
+  .calcForm__first,
+  .calcForm__second,
+  .calcForm__third {
+    max-width: 630px;
+    width: 100%;
+  }
+  .calcForm__send-wrapper {
+    margin-top: 30px;
+  }
+  .calcForm__send {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 1180px) {
+  .collectedCargo__wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+}
+@media (max-width: 480px) {
+  .collectedCargo {
+    margin-top: 30px;
+  }
+  .collectedCargo__title {
+    font-size: 35px;
+  }
+  .collectedCargo__text {
+    margin-top: 15px;
+  }
+}

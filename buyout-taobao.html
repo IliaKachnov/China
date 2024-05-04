@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/buyoutTaobao/styles-buyoutTaobao.css">
+  <script src="./scripts/buyout-taobao.js" defer></script>
+  <title>China</title>
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <ul class="header__ul">
+        <!-- <li class="header__li"><img class="header__img" src="./assets/china-logo.png" alt="china"></li> -->
+        <li class="header__li">Доставка из Китая</li>
+        <li class="header__li">Написать руководителю</li>
+        <li id="popupCall__open" class="header__li">
+          <p class="header__p">8 888 888-88-88</p>
+          <span class="header__span">заказать звонок</span>
+        </li>
+      </ul>
+    </header>
+    <nav class="nav">
+      <ul class="nav__ul">
+        <li class="nav__li">
+          <a href="#">Главная</a>
+        </li>
+        <li class="nav__li">
+          <div class="nav__li-wrapper">
+            <p>Услуги</p>
+            <svg class="nav__white-arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <path d="M5 5.05746L5 11.9425C5 12.777 5.96169 13.2444 6.61782 12.7289L10.9992 9.28632C11.5088 8.88594 11.5088 8.11406 10.9992 7.71368L6.61782 4.27114C5.96169 3.75562 5 4.22303 5 5.05746Z" fill="black"/>
+            </svg>
+          </div>
+          <ul class="nav__dropdown search">
+            <li><a href="search-items.html">Поиск товара и поставщика</a></li>
+            <li><a href="search-producer.html">Поиск производителей определенной категории</a></li>
+            <li><a href="service-order.html">Услуга заказа образцов</a></li>
+            <li><a href="service-talk.html">Услуга общения с поставщиком</a></li>
+            <li><a href="#">Поиск производства для разработки товара c индивидуальным запросом (ОDМ)</a></li>
+            <li><a href="#">Поиск производства для разработки товара под собственным брендом (ОЕМ)</a></li>
+          </ul>
+        </li>
+        <li class="nav__li">
+          <div class="nav__li-wrapper">
+            <p>Выкуп</p>
+            <svg class="nav__white-arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <path d="M5 5.05746L5 11.9425C5 12.777 5.96169 13.2444 6.61782 12.7289L10.9992 9.28632C11.5088 8.88594 11.5088 8.11406 10.9992 7.71368L6.61782 4.27114C5.96169 3.75562 5 4.22303 5 5.05746Z" fill="black"/>
+            </svg>
+          </div>
+          <ul class="nav__dropdown buy">
+            <li><a href="buyout1688.html">Выкуп товара с 1688</a></li>
+            <li><a href="buyout-taobao.html">Выкуп товара с Таобао</a></li>
+            <li><a href="buyout-alibaba.html">Выкуп товара с Алибаба</a></li>
+          </ul>
+        </li>
+        <li class="nav__li">
+          <div class="nav__li-wrapper">
+            <p>Доставка</p>
+            <svg class="nav__white-arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <path d="M5 5.05746L5 11.9425C5 12.777 5.96169 13.2444 6.61782 12.7289L10.9992 9.28632C11.5088 8.88594 11.5088 8.11406 10.9992 7.71368L6.61782 4.27114C5.96169 3.75562 5 4.22303 5 5.05746Z" fill="black"/>
+            </svg>
+          </div>
+          <ul class="nav__dropdown delivery">
+            <li><a href="collected-cargo.html">Доставка сборных грузов</a></li>
+            <li><a href="equipment.html">Доставка оборудования</a></li>
+            <li><a href="small-packages.html">Доставка мелких грузов</a></li>
+            <li><a href="samples.html">Доставка образцов и пробников</a></li>
+            <li><a href="avia.html">Авиа</a></li>
+            <li><a href="auto.html">Авто</a></li>
+            <li><a href="sea.html">Морем</a></li>
+            <li><a href="train.html">Поездом Ж/Д</a></li>
+            <li><a href="container.html">Доставка контейнером из Китая</a></li>
+          </ul>
+        </li>
+        <li class="nav__li">
+          <div class="nav__li-wrapper">
+            <p>О компании</p>
+            <svg class="nav__white-arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <path d="M5 5.05746L5 11.9425C5 12.777 5.96169 13.2444 6.61782 12.7289L10.9992 9.28632C11.5088 8.88594 11.5088 8.11406 10.9992 7.71368L6.61782 4.27114C5.96169 3.75562 5 4.22303 5 5.05746Z" fill="black"/>
+            </svg>
+          </div>
+          <ul class="nav__dropdown review">
+            <li><a href="reviews.html">Отзывы</a></li>
+            <li><a href="#">Вакансии</a></li>
+          </ul>
+        </li>
+        <li class="nav__li"><a href="blog.html">Блог</a></li>
+        <li class="nav__li"><a href="marketplace.html">Для маркетплейсов</a></li>
+        <li class="nav__li"><a href="contacts.html">Контакты</a></li>
+      </ul>
+      <div class="burger__icon-wrapper">
+        <span class="burger"></span>
+      </div>
+
+      <div class="burger__wrapper">
+        <ul class="nav__ul burgerMenu">
+          <li class="nav__li">
+            <a href="index.html">Главная</a>
+          </li>
+          <li class="nav__li">
+            <div class="nav__li-wrapper">
+              <p>Услуги</p>
+              <svg class="nav__white-arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                <path d="M5 5.05746L5 11.9425C5 12.777 5.96169 13.2444 6.61782 12.7289L10.9992 9.28632C11.5088 8.88594 11.5088 8.11406 10.9992 7.71368L6.61782 4.27114C5.96169 3.75562 5 4.22303 5 5.05746Z" fill="black"/>
+              </svg>
+            </div>
+            <ul class="nav__dropdown search">
+              <li><a href="search-items.html">Поиск товара и поставщика</a></li>
+              <li><a href="search-producer.html">Поиск производителей определенной категории</a></li>
+              <li><a href="service-order.html">Услуга заказа образцов</a></li>
+              <li><a href="service-talk.html">Услуга общения с поставщиком</a></li>
+              <li><a href="#">Поиск производства для разработки товара c индивидуальным запросом (ОDМ)</a></li>
+              <li><a href="#">Поиск производства для разработки товара под собственным брендом (ОЕМ)</a></li>
+            </ul>
+          </li>
+          <li class="nav__li">
+            <div class="nav__li-wrapper">
+              <p>Выкуп</p>
+              <svg class="nav__white-arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                <path d="M5 5.05746L5 11.9425C5 12.777 5.96169 13.2444 6.61782 12.7289L10.9992 9.28632C11.5088 8.88594 11.5088 8.11406 10.9992 7.71368L6.61782 4.27114C5.96169 3.75562 5 4.22303 5 5.05746Z" fill="black"/>
+              </svg>
+            </div>
+            <ul class="nav__dropdown buy">
+              <li><a href="buyout1688.html">Выкуп товара с 1688</a></li>
+              <li><a href="buyout-taobao.html">Выкуп товара с Таобао</a></li>
+              <li><a href="buyout-alibaba.html">Выкуп товара с Алибаба</a></li>
+            </ul>
+          </li>
+          <li class="nav__li">
+            <div class="nav__li-wrapper">
+              <p>Доставка</p>
+              <svg class="nav__white-arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                <path d="M5 5.05746L5 11.9425C5 12.777 5.96169 13.2444 6.61782 12.7289L10.9992 9.28632C11.5088 8.88594 11.5088 8.11406 10.9992 7.71368L6.61782 4.27114C5.96169 3.75562 5 4.22303 5 5.05746Z" fill="black"/>
+              </svg>
+            </div>
+            <ul class="nav__dropdown delivery">
+              <li><a href="collected-cargo.html">Доставка сборных грузов</a></li>
+              <li><a href="equipment.html">Доставка оборудования</a></li>
+              <li><a href="small-packages.html">Доставка мелких грузов</a></li>
+              <li><a href="samples.html">Доставка образцов и пробников</a></li>
+              <li><a href="avia.html">Авиа</a></li>
+              <li><a href="auto.html">Авто</a></li>
+              <li><a href="sea.html">Морем</a></li>
+              <li><a href="train.html">Поездом Ж/Д</a></li>
+              <li><a href="container.html">Доставка контейнером из Китая</a></li>
+            </ul>
+          </li>
+          <li class="nav__li">
+            <div class="nav__li-wrapper">
+              <p>О компании</p>
+              <svg class="nav__white-arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                <path d="M5 5.05746L5 11.9425C5 12.777 5.96169 13.2444 6.61782 12.7289L10.9992 9.28632C11.5088 8.88594 11.5088 8.11406 10.9992 7.71368L6.61782 4.27114C5.96169 3.75562 5 4.22303 5 5.05746Z" fill="black"/>
+              </svg>
+            </div>
+            <ul class="nav__dropdown review">
+              <li><a href="reviews.html">Отзывы</a></li>
+              <li><a href="#">Вакансии</a></li>
+            </ul>
+          </li>
+          <li class="nav__li"><a href="blog.html">Блог</a></li>
+          <li class="nav__li"><a href="marketplace.html">Для маркетплейсов</a></li>
+          <li class="nav__li"><a href="contacts.html">Контакты</a></li>
+        </ul>
+      </div>
+
+    </nav>
+    <main class="main">
+
+      <section class="buyout">
+        <div class="buyout__wrapper">
+          <div class="buyout__text-wrapper">
+            <h2 class="buyout__title">Выкуп товара с Таобао</h2>
+            <p class="buyout__text">Поиск и проверка поставщиков</p>
+            <ul class="buyout__list">
+              <li class="buyout__item">
+                <img src="./assets/icons/gal.svg" alt="China">
+                <p>Оптимальные цены на перевозки из Китая</p>
+              </li>
+              <li class="buyout__item">
+                <img src="./assets/icons/gal.svg" alt="China">
+                <p>Любые грузы</p>
+              </li>
+            </ul>
+            <div class="buyout__links-wrapper">
+              <a class="buyout__link" href="#">Платформа 1688</a>
+              <a class="buyout__link" href="#">Оставить заявку</a>
+            </div>
+          </div>
+          <div class="buyout__img-wrapper">
+            <img src="./assets/china-box.jpeg" alt="China">
+          </div>
+        </div>
+      </section>
+      
+
+      <section class="buyoutPlans"> 
+        <div class="buyoutPlans__wrapper">
+          <h2 class="buyoutPlans__title">Тарифы по выкупу</h2>
+          <div class="buyoutPlans__items">
+            <div class="buyoutPlans__item">
+              <h4 class="buyoutPlans__item-title">10%</h4>
+              <p class="buyoutPlans__item-first">На первый заказ</p>
+              <p class="buyoutPlans__item-price">100.000 руб</p>
+              <a class="buyoutPlans__item-order" href="#">Заказать</a>
+            </div>
+            <div class="buyoutPlans__item">
+              <h4 class="buyoutPlans__item-title">10%</h4>
+              <p class="buyoutPlans__item-first">На первый заказ</p>
+              <p class="buyoutPlans__item-price">100.000 руб</p>
+              <a class="buyoutPlans__item-order" href="#">Заказать</a>
+            </div>
+            <div class="buyoutPlans__item">
+              <h4 class="buyoutPlans__item-title">10%</h4>
+              <p class="buyoutPlans__item-first">На первый заказ</p>
+              <p class="buyoutPlans__item-price">100.000 руб</p>
+              <a class="buyoutPlans__item-order" href="#">Заказать</a>
+            </div>
+            <div class="buyoutPlans__item">
+              <h4 class="buyoutPlans__item-title">10%</h4>
+              <p class="buyoutPlans__item-first">На первый заказ</p>
+              <p class="buyoutPlans__item-price">100.000 руб</p>
+              <a class="buyoutPlans__item-order" href="#">Заказать</a>
+            </div>
+            <div class="buyoutPlans__item">
+              <h4 class="buyoutPlans__item-title">10%</h4>
+              <p class="buyoutPlans__item-first">На первый заказ</p>
+              <p class="buyoutPlans__item-price">100.000 руб</p>
+              <a class="buyoutPlans__item-order" href="#">Заказать</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="company">
+        <div class="company__wrapper">
+          <div class="company__text-wrapper">
+            <h3 class="company__title">О компании FLG</h3>
+            <p class="company__text">Поможем найти вам товар или поставщика в Китае. Возьмем на себя выкуп под ключ товаров с любых китайских площадок по выгодной цене и с гарантией результата. Доставим ваш товар в Россию Карго или в белую. Так же можем упаковать ваш товар и отправить на маркетплейсы..</p>
+            <a class="company__btn" href="#">О компании</a>
+          </div>
+          <img class="company__img" src="./assets/china-box.jpeg" alt="China">
+        </div>
+      </section>
+
+      <section class="help">
+        <div class="help__wrapper">
+          <div class="help__item">
+            <div class="help__icon-wrapper">
+              <img class="help__icon" src="" alt="">
+            </div>
+            <h4 class="help__title">Найдем поставщика</h4>
+            <p class="help__text">Найдем товар или поставщика в Китае</p>
+          </div>
+          <div class="help__item">
+            <div class="help__icon-wrapper">
+              <img class="help__icon" src="" alt="">
+            </div>
+            <h4 class="help__title">Выкуп товара</h4>
+            <p class="help__text">Выкупим с 1688, Alibaba, Тaobao и заводов китая</p>
+          </div>
+          <div class="help__item">
+            <div class="help__icon-wrapper">
+              <img class="help__icon" src="" alt="">
+            </div>
+            <h4 class="help__title">Контроль качества</h4>
+            <p class="help__text">Проверяем товар перед отправкой в РФ</p>
+          </div>
+          <div class="help__item">
+            <div class="help__icon-wrapper">
+              <img class="help__icon" src="" alt="">
+            </div>
+            <h4 class="help__title">Отгрузка на маркетплейсы</h4>
+            <p class="help__text">Бесплатно отгрузим на маркетплейсы с наших складов в РФ</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="buyoutText">
+        <div class="buyoutText__wrapper">
+          <p class="buyoutText__text">Торговля в Китае очень сильно отличается от российского рынка. В нашей стране предприятия используют для торговли исключительно собственный сайт, в то время как китайские производители дополнительно регистрируются на известных и общих торговых точках. Одной из популярных оптовых торговых площадок в Китае является 1688.com. Эта платформа предлагает непреувеличенные возможности. По этой причине все крупные и малые китайские предприятия стараются на ней разместиться.</p>
+          <h2 class="buyoutText__title">Что можно купить на платформе 1688.com?</h2>
+          <h3 class="buyoutText__subtitle">Являясь частью концерна AlibabaGroup, универсальная площадка 1688 предлагает разнообразные товары, изделия, оборудование для оптовых покупок. Здесь можно купить:</h3>
+          <ul class="buyoutText__list">
+            <li class="buyoutText__item">одежду, обувь для взрослых и детей</li>
+            <li class="buyoutText__item">одежду, обувь для взрослых и детей</li>
+            <li class="buyoutText__item">одежду, обувь для взрослых и детей</li>
+            <li class="buyoutText__item">одежду, обувь для взрослых и детей</li>
+            <li class="buyoutText__item">одежду, обувь для взрослых и детей</li>
+            <li class="buyoutText__item">одежду, обувь для взрослых и детей</li>
+            <li class="buyoutText__item">одежду, обувь для взрослых и детей</li>
+          </ul>
+          <p class="buyoutText__text">1688.com считается внутренней торговой площадкой Китая, оптимизированная под работу собственных закупщиков. Чтобы заказать товар с этой платформы, следует воспользоваться помощью посредников. Он является важным связующим звеном в цепочке поставок из Китая.</p>
+          <h3 class="buyoutText__subtitle">Что входит в обязанности посредника?</h3>
+          <p class="buyoutText__text">Посредник – это лицо, которое осуществляет сделку купли-продажи между производителем и покупателем. В его обязанности входит:</p>
+          <ul class="buyoutText__list">
+            <li class="buyoutText__item">– размещение заказа на платформе 1688;</li>
+            <li class="buyoutText__item">– размещение заказа на платформе 1688;</li>
+            <li class="buyoutText__item">– размещение заказа на платформе 1688;</li>
+            <li class="buyoutText__item">– размещение заказа на платформе 1688;</li>
+            <li class="buyoutText__item">– размещение заказа на платформе 1688;</li>
+          </ul>
+          <h3 class="buyoutText__subtitle">Платформа</h3>
+          <p class="buyoutText__text">После перехода на сайт www.1688.com заказчик столкнется с тем, что ему будет необходимо установить специальное разрешение. В браузере Google Chrome встроен переводчик, который автоматически переводит страницу при загрузке. Все дело в том, что платформа создана на китайском языке.</p>
+          <h3 class="buyoutText__subtitle">Как найти изделие на торговой платформе?</h3>
+          <p class="buyoutText__text">Первое, с чем приходится столкнуться заказчику на торговой платформе, является поиск товаров. В действительности найти нужное изделие гораздо проще, чем кажется с первого взгляда. К тому же, посредник окажет помощь в поиске и научит работать с площадкой. 
+          </br> 
+          </br> 
+          1. Для поиска товара следует ввести в специальной графе его название на китайском языке. К примеру, вы хотите купит кроссовки. Заходите на translate.google.ru или другой переводчик и переводите с русского языка на китайский.
+          </br> 
+          </br>
+          Важно! Переводить наименование товара лучше всего на упрощенный язык, а не традиционный.
+          </br> 
+          </br>
+          2. В поисковую строку вносите название товара. Копируете в переводчике наименование, а после вставляете его в окно поиска торговой площадки. После этого система выдаст все товары, которые соответствуют вашему запросу. Цены на любой товар будут изображаться исключительно в китайской национальной валюте.
+          </br> 
+          </br>
+          3. Нажав на понравившийся товар, система перебросит вас на его страницу. Здесь будет представлено полное описание, фотографии и даже видео. Лучше всего сразу перевести страницу, чтобы иметь возможность ознакомиться с информацией. В характеристиках товара продавцы платформы указывают количество, имеющиеся в наличии, размерный ряд, цветовую палитру, стоимость за единицу и прочую соответствующую информацию. При заказе большого количества одной единицы товара продавцы зачастую уменьшают стоимость.
+          </p>
+          <h3 class="buyoutText__subtitle">Как сделать заказ с 1688?</h3>
+          <p class="buyoutText__text">Если вы хотите приобрести товар с оптовой торговой платформы, то наша компания с удовольствием вам поможет. Наши специалисты ответят на все интересующие вас вопросы и помогут купить качественный товар по приятной цене. Заключив договор с нами, вы получите заказ в кратчайшие сроки, в целостности, без лишних трат.</p>
+        </div>
+      </section>
+
+    </main>
+    <footer class="footer">
+      <div class="footer__ask">
+        <h3>Не нашли нужную информацию?</h3>
+        <button>Задайте нам вопрос</button>
+      </div>
+      <div class="footer__info">
+        <img src="" alt="logo">
+        <p>ИП Иван Иванов ИНН:2419412949</p>
+        <p>8 888 888-88-88</p>
+        <p>Политика конфиденциальности</p>
+      </div>
+    </footer>
+
+
+    <!-- POPUP CALL -->
+    <div id="popup__call" class="popup__call">
+      <div class="popup__call__body">
+        <div class="popup__call__content">
+          <div class="popup__image-wrapper">
+            <img id="popupCall__close" class="popup__call__close-img" src="./assets/icons/cross.png">
+          </div>
+          <div class="popup__call__text-wrapper">
+            <p class="text-wrapper__title">Заполните форму</p>
+            <form action="" class="popup__form">
+              <input class="popup__form-input" type="text" placeholder="Ваше ФИО">
+              <input class="popup__form-input" type="tel" placeholder="Ваш телефон">
+              <input class="popup__form-input" type="text" placeholder="Удобное время для звонка">
+              <button class="popup__form-send">Отправить</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
